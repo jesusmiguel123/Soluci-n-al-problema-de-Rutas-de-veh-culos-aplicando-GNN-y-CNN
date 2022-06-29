@@ -53,7 +53,7 @@ def obteniendoSolucion(M, capacidad):
    routing.AddDimension(
       transit_callback_index,
       0,                      # no slack
-      4000,                   # vehicle maximum travel distance
+      6000,                   # vehicle maximum travel distance
       True,                   # start cumul to zero
       dimension_name
    )
@@ -64,7 +64,7 @@ def obteniendoSolucion(M, capacidad):
    search_parameters.first_solution_strategy = (
       routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC
    )
-   search_parameters.time_limit.FromSeconds(1)
+   search_parameters.time_limit.FromSeconds(2)
    solution = routing.SolveWithParameters(search_parameters)
 
    if solution:
