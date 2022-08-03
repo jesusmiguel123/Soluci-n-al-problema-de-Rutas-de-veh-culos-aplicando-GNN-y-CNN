@@ -19,8 +19,8 @@ The Vehicle Routing Problem is crucial in the Optimization field and related to 
 │········│···├── cargas.npy                                                                                                 
 │········│···└── distancias.npy                                                                                             
 │········└── VRP                                                                                                            
-│············├── aristas.npy                                                                                                
-│············└── distancias.npy                                                                                             
+│·············├── aristas.npy                                                                                                
+│·············└── distancias.npy                                                                                             
 ├── Models / state_dict                                                                                                    
 │···├── CVRP                                                                                                               
 │···│···├── CNN.pt                                                                                                         
