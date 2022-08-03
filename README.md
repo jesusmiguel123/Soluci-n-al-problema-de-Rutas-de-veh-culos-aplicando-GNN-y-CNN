@@ -12,23 +12,23 @@ The Vehicle Routing Problem is crucial in the Optimization field and related to 
 │   ├── Scripts                                                                                                            
 │   │   ├── generarInstancias.py                                                                                           
 │   │   ├── obtenerTargetsCVRP.py                                                                                          
-│   │   └── obtenerTargetsVRP.py                                                                                           
+│   │   └── obtenerTargetsVRP.py                                                                                           
 │   └── Targets                                                                                                            
-│   .	├── CVRP                                                                                                           
-│   .	│   ├── aristas.npy                                                                                                
-│   .	│   ├── cargas.npy                                                                                                 
-│   .	│   └── distancias.npy                                                                                             
-│   .	└── VRP                                                                                                            
-│   .   .   ├── aristas.npy                                                                                                
-│   .   .   └── distancias.npy                                                                                             
+│   ....├── CVRP                                                                                                           
+│   ....│   ├── aristas.npy                                                                                                
+│   ....│   ├── cargas.npy                                                                                                 
+│   ....│   └── distancias.npy                                                                                             
+│   ....└── VRP                                                                                                            
+│   ........├── aristas.npy                                                                                                
+│   ........└── distancias.npy                                                                                             
 ├── Models / state_dict                                                                                                    
 │   ├── CVRP                                                                                                               
 │   │   ├── CNN.pt                                                                                                         
 │   │   ├── FNN.pt                                                                                                         
 │   │   └── GNN.pt                                                                                                         
 │   └── VRP                                                                                                                
-│   .   ├── CNN.pt                                                                                                         
-│   .   ├── FNN.pt                                                                                                         
-│   .   └── GNN.pt                                                                                                         
+│   ....├── CNN.pt                                                                                                         
+│   ....├── FNN.pt                                                                                                         
+│   ....└── GNN.pt                                                                                                         
 ├── Solucion al problema de Rutas de Vehiculos aplicando GNN y CNN.ipynb / main code                                       
 └── Solucion al problema de Rutas de Vehiculos aplicando GNN y CNN.pdf / Document
